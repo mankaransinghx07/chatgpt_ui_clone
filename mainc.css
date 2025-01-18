@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+}
+.s1{
+    font-size: 18px;
+    background-color: #212121;
+    outline: none;
+    border: none;
+    color: #b4b4b4;
+    padding: 10px;
+
+}
+
+.s1:hover{
+    background-color: #2f2f2f;
+}
+
+.wrapper{
+    gap : 10px;
+    padding: 12px 16px;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.wrapper>img{
+    height: 32px;
+    width : 32px;
+    border-radius: 30px;
+}
+
+.container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+.msgbox{
+    width: 40%;
+    min-height: max-content;
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.msg{
+    color:#b4b4b4;
+    background-color: #2f2f2f;
+    border: none;
+    outline : none;
+    width : 100%;
+    font-size: 16px;
+}
+
+.icons{
+    gap : 10px;
+}
+
+.ico2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.func{
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    border:1px solid #383838;
+    background-color: #212121;
+    color: #9b9b9b;
+    font-size: 15px;
+    border-radius: 30px;
+    padding : 10px 24px 10px  ;
+}
+
+.func>svg{
+    height: 17px;
+    width: 17px;
+}
+
+.func:hover{
+    color: white ;
+    background-color: #2f2f2f;
+    transition: 0.1s;
+}
+
+.funcorg{
+    display: flex;
+    justify-content: space-between;
+    gap : 10px;
+}
+
+.hdr{
+    color: white;
+    font-size: 30px;
+}
+
+.ftr{
+    color: #b4b4b4;
+    font-size: 12px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
